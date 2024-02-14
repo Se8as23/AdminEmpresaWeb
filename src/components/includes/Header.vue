@@ -4,12 +4,12 @@
 
         <ul class="header__menu">
             <li class="header__menu__item">
-                <a href="#" class="header__menu__item__link">
+                <a :href="'inicioSecion.vue'" class="header__menu__item__link">
                     Iniciar sesión
                 </a>
             </li>
             <li class="header__menu__item">
-                <a href="#" class="header__menu__item__link">
+                <a href="Registro.vue" class="header__menu__item__link">
                     Registrarse
                 </a>
             </li>
